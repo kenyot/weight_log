@@ -74,7 +74,7 @@ class WeightLog(object):
             if self.num_entries <= 0:
                 error("Weight log devoid of any entries.")
             if DEBUG:
-                print("Number of log entries: {}".format(self.num_entries))
+                print("Number of log entries: {}\n".format(self.num_entries))
 
             self.log_entries.sort()
             self.start_date = self.log_entries[0].datetime.date()
@@ -146,7 +146,7 @@ class WeightLog(object):
         """ Writes... 
         
             Output file:
-            CSV, three columns: datetime (epoch), weight, weekly average
+            CSV, three columns: datetime (epoch), bodyweight, weekly average
         """
         entries_and_averages = []
 
@@ -165,7 +165,7 @@ class WeightLog(object):
         print("Writing... {}".format(filename))
         with open(filename,'w') as outfile:
             csv_outfile = csv.writer(outfile)
-            csv_outfile.writerow(["Date","Weight (lbs)","Weekly Average (lbs)"])
+            csv_outfile.writerow(["Date","Bodyweight","Weekly Average"])
             csv_outfile.writerows(entries_and_averages)
 
 

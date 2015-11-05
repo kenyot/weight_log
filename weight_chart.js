@@ -41,7 +41,7 @@ $(document).ready(function() {
                 }
             },
             title: {
-                text: "Weight (lbs) vs. Time"
+                text: "Bodyweight vs. Time"
             },
             subtitle: {
                 text: null

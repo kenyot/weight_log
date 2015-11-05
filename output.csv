@@ -1,4 +1,4 @@
-Date,Weight (lbs),Weekly Average (lbs)
+Date,Bodyweight,Weekly Average
 1435708800000,242.0,
 1436140740000,,242.0
 1437523200000,235.0,
@@ -85,3 +85,4 @@ Date,Weight (lbs),Weekly Average (lbs)
 1446651000000,210.0,
 1446667200000,210.0,
 1446721200000,207.6,
+1446729540000,207.0,
