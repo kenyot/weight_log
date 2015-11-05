@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $.get('http://127.0.0.1:8000/output.csv', function (data) {
+    //$.get('http://127.0.0.1:8000/output.csv', function (data) {
+    $.get('https://github.com/kenyot/weight_log/blob/gh-pages/output.csv', function (data) {
         Highcharts.setOptions({
             global: {
                 useUTC: true

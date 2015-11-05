@@ -83,12 +83,6 @@ class WeightLog(object):
             error("Opening... {} : File not found.".format(self.filename))
 
 
-    #def process_input(self):
-    #    """ ... """
-    #    self.compute_weekly_averages()
-    #    pass
-
-
     def compute_weekly_averages(self):
         """ Calculates average weight for each week ending on Sunday         
         """
